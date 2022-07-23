@@ -19,7 +19,7 @@ describe('Teste o componente <About.js />.', () => {
     expect(paragraphOne && paragraphTwo).toBeInTheDocument();
   });
 
-  test('', () => {
+  test('se a página contém a seguinte imagem de uma Pokédex', () => {
     renderWithRouter(<About />);
 
     const imageAbout = screen.getByRole('img');

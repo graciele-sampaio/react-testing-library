@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import { FavoritePokemons } from '../pages';
 import renderWithRouter from '../renderWithRouter';
 
-describe('Teste o componente <App.js />', () => {
+describe('Teste o componente <FavoritePokemons.js />', () => {
   test('se é exibida na tela a mensagem No favorite pokemon found', () => {
     renderWithRouter(<FavoritePokemons />);
 
